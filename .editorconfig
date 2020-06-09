@@ -1,0 +1,20 @@
+# File with settings for your editor
+#
+#If you're coding on WebStorm, BBEdit, Coda или SourceLair, 
+#this file already supported and you haven't to change anything in your editor
+#
+#If you code in another editor, please go to https://editorconfig.org and in the "Download a Plugin"
+#download plugin for your editor
+
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_size = 2
+indent_style = space
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.md]
+trim_trailing_whitespace = false
